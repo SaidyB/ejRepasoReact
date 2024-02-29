@@ -1,8 +1,22 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({mostrar,nombre, carrera}) => {
+
+  
   return (
-    <div>Cardasdas</div>
+    <>
+      {mostrar ? true:
+      <h2>{nombre}</h2>}
+    
+    
+    </>
+
+    
+
+    
+
+
+    
   )
 }
 
